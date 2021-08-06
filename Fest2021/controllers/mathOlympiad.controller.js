@@ -106,7 +106,9 @@ const postMOedit = (req, res) =>{
     req.flash("error", error);
     res.redirect("/MathOlympiad/list");
 });
-}
+};
+
+
 const getMOList = (req, res) => {
     let all_participant = [];
     let error = "";
